@@ -1088,6 +1088,9 @@ ul.portfolio li.active {
     .section-title h2 {
         font-size: 22px;
     }
+    .section-title-1 h2 {
+        font-size: 22px;
+    }
     .testimonial-word {
         padding: 0;
     }
@@ -1105,6 +1108,7 @@ ul.portfolio li.active {
         margin-bottom: 30px;
     }
 }
+ 
 
 
 @media only screen and (max-width: 555px) {
@@ -1115,6 +1119,16 @@ ul.portfolio li.active {
          font-size: 20px;
       }
 	  
+  
+     .section-title-1 h2 {
+         font-size: 16px;
+       }
+     
+      .section-title-1 h2 {
+         font-weight: 500;
+         width: 200px;
+     }
+
      .section-title h2 {
          font-size: 16px;
        }
