@@ -1013,7 +1013,7 @@ ul.portfolio li.active {
         font-size: 12px;
     }
 	.navigation-background .logo {
-		padding-top: 2%;
+		padding-top: 10px;
 	}
 }
 
@@ -1070,7 +1070,7 @@ ul.portfolio li.active {
         max-height: 420px;
     }
     .navbar-toggle {
-        margin-top: -30px;
+        margin-top: -50px;
     }
     .navbar-collapse {
         background: rgba(0, 0, 0, .9);
@@ -1525,6 +1525,4 @@ ul.portfolio li.active {
  width: 60px;
  position: static;
  border-radius: 2px;
- padding-top: 7
- px;
 }
