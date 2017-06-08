@@ -38,6 +38,17 @@
 
 /* Global Style */
 
+/*
+-------alterações---------
+@font-face{
+  font-family: 'NowAlt-Thin';
+  font-weight: normal;
+  font-style: normal;
+  src:url("fonts/NowAlt-Thin.otf") format("opentype");
+
+}
+
+*/
 body {
     font-size: 16px;
     font-weight: 400;
