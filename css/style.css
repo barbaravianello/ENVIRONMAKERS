@@ -39,12 +39,10 @@
 /* Global Style */
 
 /*  #########ALTERAÇÃO NA FONTE##########
-@font-face{
-  font-family: 'NowAlt-Thin';
-  font-weight: normal;
-  font-style: normal;
-  src:url("fonts/NowAlt-Thin.otf") format("opentype");
-
+@font-face{ 
+   font-family: 'NowAlt-Bold'; 
+   font-weight: normal; 
+   font-style: normal; 
 }
 
 */
