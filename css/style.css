@@ -54,7 +54,7 @@ body {
     line-height: 24px;
     letter-spacing: 1px;
     height: 100%;
-    font-family: 'Now Alt', sans-serif;
+    font-family: 'NowAltRegular', sans-serif;
 }
 
 html,
@@ -78,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Now Alt', sans-serif;
+	font-family: 'NowAlt', sans-serif;
 }
 
 a {
@@ -175,14 +175,14 @@ fieldset {
 
 .button {
 	border: none;
-	font-family: inherit;
+	font-family: 'NowAlt', inherit;
 	font-size: inherit;
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 25px 80px;
+	padding: 20px 50px;
 	display: inline-block;
-	margin: 5px 30px;
+	margin: 25px 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -204,7 +204,7 @@ fieldset {
 
 
 .button:before {
-	font-family: 'FontAwesome';
+	font-family: 'NowAlt', inherit;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -242,12 +242,12 @@ fieldset {
 }
 
 .button-style:active:before {
-	color: #17954c;
+	color: #fff;
 }
 
 .button-style-icon:before {
 	left: 130%;
-	top: -2px;
+	top: -5px;
 }
 
 .button-style-icon:hover:before {
@@ -366,7 +366,7 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/bg/background.gif);
+    background: url(../images/bg/agoraVai.gif);
     background-size: cover;
     z-index: 1;
 }
@@ -398,7 +398,7 @@ body.loaded #preloader{
 
 .home-section-background h2 {
     color: #f8f8f8;
-    font-size: 48px;
+    font-size: 35px;
     letter-spacing: 5px;
     margin: 0;
 }
@@ -406,8 +406,8 @@ body.loaded #preloader{
 .home-section-background p {
     color: #f8f8f8;
     letter-spacing: 4px;
-    font-size: 15px;
-	margin-top: 40px;
+    font-size: 25px;
+	margin-top: 10%;
 	margin-bottom: 20px;
 }
 
@@ -437,6 +437,7 @@ body.loaded #preloader{
 }
 
 .header-top-area {
+    background-color: #fff;
     position: fixed;
     left: 0;
     top: 0;
@@ -463,7 +464,7 @@ body.loaded #preloader{
 }
 
 .navigation-menu .navbar-nav li a {
-    color: #fff;
+    color: rgb(68, 200, 245);
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
@@ -475,7 +476,7 @@ body.loaded #preloader{
 
 .navigation-menu .navbar-nav li a:hover {
     background: none;
-    color: #fff;
+    color: #172e54;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -483,7 +484,7 @@ body.loaded #preloader{
 .nav li a:focus,
 .nav li a:hover {
     background: none;
-    color: #fff;
+    color: rgb(68, 200, 245);
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -495,7 +496,7 @@ body.loaded #preloader{
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #000;
+    background: #fff;
 }
 
 .navigation-background .logo {
@@ -505,14 +506,14 @@ body.loaded #preloader{
 }
 
 .navigation-background .navigation-menu .navbar-nav li a {
-    color: #fff;
+    color: rgb(68, 200, 245);
     padding: 20px 15px;
     -webkit-transition: .3s;
     transition: .3s;
 }
 
 .navigation-background .navigation-menu .navbar-nav li a:hover {
-    color: #fff;
+    color: #172e54;
 }
 
 
@@ -608,7 +609,7 @@ ul.portfolio li.active {
 .portfolio .item a:before{
   color: #ffffff;
   content: "\f00e";
-  font-family: "FontAwesome";
+  font-family: 'NowAlt', inherit;
   text-align: center;
   color: #ffffff;
   position: absolute;
@@ -952,10 +953,10 @@ ul.portfolio li.active {
 
 @media only screen and (max-width: 767px) {
     .navbar-toggle .icon-bar {
-        background: #f8f8f8;
+        background: rgb(68, 200, 245);
     }
     .navigation-background .navbar-toggle .icon-bar {
-        background: #fff;
+        background: rgb(68, 200, 245);
     }
     .navbar-toggle {
         margin-right: 0px;
@@ -978,18 +979,16 @@ ul.portfolio li.active {
     }
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
-
         max-height: 420px;
     }
     .navbar-toggle {
         margin-top: -50px;
     }
     .navbar-collapse {
-        background: rgba(0, 0, 0, .9);
+        background: #fff;
     }
     .navigation-background .navbar-collapse {
-
-        background: rgba(0, 0, 0, .9);
+        background: #fff;
     }
     .home-section-background {
         padding-top: 120px;
