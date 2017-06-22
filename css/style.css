@@ -38,16 +38,6 @@
 
 /* Global Style */
 
-/*  #########ALTERAÇÃO NA FONTE##########
-@font-face{ 
-   font-family: 'NowAlt-Bold'; 
-   font-weight: normal; 
-   font-style: normal; 
-}
-
-*/
-
-
 body {
     font-size: 16px;
     font-weight: 400;
@@ -366,7 +356,7 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/bg/inicio.gif);
+    background: url(../images/bg/agoraVai.gif);
     background-size: cover;
     z-index: 1;
 }
@@ -398,7 +388,7 @@ body.loaded #preloader{
 
 .home-section-background h2 {
     color: #f8f8f8;
-    font-size: 35px;
+    font-size: 90px;
     letter-spacing: 5px;
     margin: 0;
 }
@@ -406,7 +396,7 @@ body.loaded #preloader{
 .home-section-background p {
     color: #f8f8f8;
     letter-spacing: 4px;
-    font-size: 25px;
+    font-size: 40px;
 	margin-top: 10%;
 	margin-bottom: 20px;
 }
@@ -516,6 +506,10 @@ body.loaded #preloader{
     color: #172e54;
 }
 
+.novafonte {
+  font-family: bebasneueregular;
+}
+
 
 
 /* About Me */
@@ -526,7 +520,8 @@ body.loaded #preloader{
 }
 
 .about-section img {
-	position: absolute;
+	position: relative;
+  margin-left: 50%;
 }
 
 .about-me {}
@@ -541,6 +536,24 @@ body.loaded #preloader{
 	font-size: 15px;
 }
 
+.justificar{
+  text-align: justify;
+}
+
+.colorir {
+  background-color: white;
+}
+
+.espaco {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.pequeno-espaco{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 
 /* Portfolio */
@@ -935,6 +948,7 @@ ul.portfolio li.active {
     .about-section 
   img {
         position: static;
+        margin-left: auto;
      }
 	 
      .call-to-action h2 {
