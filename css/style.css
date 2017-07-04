@@ -122,7 +122,6 @@ fieldset {
     font-size: 30px;
     margin: 0 auto;
     padding: 10px 0;
-    width: 600px;
   margin-bottom: 30px;
 }
 
@@ -356,7 +355,7 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/bg/agoraVai.gif);
+    background: url(../images/bg/agoravai.gif);
     background-size: cover;
     z-index: 1;
 }
@@ -388,7 +387,7 @@ body.loaded #preloader{
 
 .home-section-background h2 {
     color: #f8f8f8;
-    font-size: 90px;
+    font-size: 45px;
     letter-spacing: 5px;
     margin: 0;
 }
@@ -396,7 +395,7 @@ body.loaded #preloader{
 .home-section-background p {
     color: #f8f8f8;
     letter-spacing: 4px;
-    font-size: 40px;
+    font-size: 20px;
 	margin-top: 10%;
 	margin-bottom: 20px;
 }
@@ -506,8 +505,49 @@ body.loaded #preloader{
     color: #172e54;
 }
 
+#negrito {
+  font-weight: bold;
+}
+
+.nova-section {
+    text-align: center;
+    margin-top: 0;
+    font-weight: 600;
+    border-bottom: 10px double #44C8F5;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
 .novafonte {
   font-family: bebasneueregular;
+}
+
+.fonte-hanken {
+  font-family: Hankenbook;
+}
+
+.fonte-nowalt {
+  font-family: NowAltRegular;
+}
+
+.fonte-nowalt-negrito {
+  font-family: NowAltRegular;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.fonte-nowalt-negrito-1 {
+  font-family: NowAltRegular;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.fonte-nowalt-negrito-2 {
+  font-family: NowAltRegular;
+  font-weight: bold;
 }
 
 
@@ -546,15 +586,20 @@ body.loaded #preloader{
 
 .espaco {
   margin-top: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .pequeno-espaco{
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
+.diagrama {
+width: 70%;
+height: 70%;
+padding-left: 3%;
+}
 
 /* Portfolio */
 
@@ -1050,7 +1095,7 @@ ul.portfolio li.active {
        }
      
       .section-title-1 h2 {
-         font-weight: 500;
+         font-weight: bold;
          width: 200px;
      }
 
@@ -1059,7 +1104,7 @@ ul.portfolio li.active {
        }
 	   
       .section-title h2 {
-         font-weight: 500;
+         font-weight: bold;
          width: 200px;
      }
 	 
