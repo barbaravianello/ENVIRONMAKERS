@@ -550,6 +550,9 @@ body.loaded #preloader{
   font-weight: bold;
 }
 
+#zero_espaco {
+  margin-bottom: 9%;
+}
 
 
 /* About Me */
@@ -581,7 +584,7 @@ body.loaded #preloader{
 }
 
 .colorir {
-  background-color: white;
+  background-color: rgb(201, 231, 241);
 }
 
 .espaco {
