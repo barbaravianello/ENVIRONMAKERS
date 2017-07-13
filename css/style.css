@@ -113,7 +113,7 @@ fieldset {
     padding: 50px 0px;
 }
 
-.section-title-1 h2 {
+.section-title-1 h3 {
     text-align: center;
     margin-top: 0;
     font-weight: 600;
@@ -136,7 +136,7 @@ fieldset {
     text-align: center;
 }
 
-.section-title h2 {
+.section-title h3 {
     margin-top: 0;
     font-weight: 600;
     border-bottom: 10px double #44C8F5;
@@ -169,7 +169,7 @@ fieldset {
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 20px 50px;
+	padding: 8px 50px;
 	display: inline-block;
 	margin: 25px 30px;
 	text-transform: uppercase;
@@ -205,7 +205,6 @@ fieldset {
 }
 
 .button-style {
-	border-radius: 50px;
 	border: 3px solid white;
 	color: white;
 	overflow: hidden;
@@ -559,7 +558,7 @@ body.loaded #preloader{
 
 .about-section {
 	overflow: hidden;
-	background-color: #F9F9F9;
+	background-color: #ffffff;
 }
 
 .about-section img {
@@ -569,7 +568,7 @@ body.loaded #preloader{
 
 .about-me {}
 
-.about-me h2 {
+.about-me h3 {
 	padding: 0px 50px;
 }
 
@@ -580,11 +579,11 @@ body.loaded #preloader{
 }
 
 .justificar{
-  text-align: justify;
+  text-align: center;
 }
 
 .colorir {
-  background-color: rgb(201, 231, 241);
+  background-color: rgb(42, 59, 80);
 }
 
 .espaco {
@@ -710,7 +709,7 @@ ul.portfolio li.active {
 /* Testimonial */
 
 .testimonial-section {
-    background: #F9F9F9;
+    background: #ffffff;
 }
 
 .testimonial-carousel-list {
@@ -772,7 +771,7 @@ ul.portfolio li.active {
 /* Services */
 
 .services-section {
-  background-color: #F9F9F9;
+  background-color: #ffffff;
 }
 
 .services-section hr {
@@ -826,7 +825,7 @@ ul.portfolio li.active {
 
 
 .contact-us {
-	background-color: hsla(195, 91%, 91%, 0.95);
+	background-color: rgb(68, 200, 245);
 }
 
 .contact-us-detail {
@@ -1055,13 +1054,13 @@ ul.portfolio li.active {
     .home-section-background {
         padding-top: 120px;
     }
-    .home-section-background h2 {
+    .home-section-background h3 {
         font-size: 22px;
     }
-    .section-title h2 {
+    .section-title h3 {
         font-size: 22px;
     }
-    .section-title-1 h2 {
+    .section-title-1 h3 {
         font-size: 22px;
     }
     .testimonial-word {
@@ -1093,20 +1092,20 @@ ul.portfolio li.active {
       }
 	  
   
-     .section-title-1 h2 {
+     .section-title-1 h3 {
          font-size: 16px;
        }
      
-      .section-title-1 h2 {
+      .section-title-1 h3 {
          font-weight: bold;
          width: 200px;
      }
 
-     .section-title h2 {
+     .section-title h3 {
          font-size: 16px;
        }
 	   
-      .section-title h2 {
+      .section-title h3 {
          font-weight: bold;
          width: 200px;
      }
@@ -1116,7 +1115,7 @@ ul.portfolio li.active {
          font-size: 12px;
       }
 	  
-     .home-section-background h2 {
+     .home-section-background h3 {
          font-size: 18px;
       }
 	  
